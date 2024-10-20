@@ -1,0 +1,44 @@
+
+.food-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* ทำให้รูปขยายหรือหดเพื่อครอบเต็มพื้นที่ */
+  }
+  
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+    border-radius: 10px;       /* Rounded corners */
+    overflow: hidden;          /* Ensures content doesn't spill outside the card */
+}
+
+.card-body {
+    flex-grow: 1;
+    padding: 15px;             /* Adds padding to the content area */
+}
+
+.card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.no-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;               /* Match the width of the image */
+    height: 200px;             /* Match the height of the image */
+    background-color: #f0f0f0; /* Light grey background for the placeholder */
+    color: #999;               /* Text color for the "No Image Available" */
+    font-style: italic;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card img, .no-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

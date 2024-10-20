@@ -1,0 +1,43 @@
+.food-card {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .food-card-img {
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .text-muted {
+    font-size: 0.875rem;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+  }
+  
